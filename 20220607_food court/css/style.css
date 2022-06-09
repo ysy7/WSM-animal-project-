@@ -52,6 +52,7 @@ h3 {
 }
 ul {
     list-style: var(--normal-font-size);
+    list-style: none;
 }
 a{
     text-decoration: none;
@@ -94,6 +95,37 @@ nav i{
 /* 2K & 4K */
 
 /* tablet */
+@media screen and (max-width: 600px ){   /* width가 600px 이하면 아래 css 적용*/
+    .nav-toggle{
+        display: block;
+        cursor: pointer;
+        position: absolute; /*위치 무시. 로고 가운데 정렬*/
+    }
+    .nav-logo{
+        margin: 0 auto;  /*로고 가운데 정렬*/
+    }
+    .nav-list{
+        position: absolute;
+        top: 44px;
+        left:0;
+        right: 0;
+        /* width: 100%; */
+        flex-direction: column;
+
+        background-color: lightgrey;
+    }
+    .nav-item{
+        padding: 0.5rem 1rem;  /*위 오 아 왼*/
+        text-align: center;  /*가운데 정렬*/
+        border-bottom: 1px solid white;  /*아래 선*/
+    }
+    .nav-link{
+        color: var(--title-color);
+    }
+   
+
+}
+
 
 /* mobile */
 

@@ -1,12 +1,12 @@
 /* Google Fonts */
+
 @import url('https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@400;500;700&display=swap');
 
-
-/* Varables CSS */
+/* Variables CSS */
 :root {
-    /* color */
-    --first-color: hsl(160, 100%, 25%);   /*#008156*/
-    --first-color-bright: hsl(16, 100%, 40%);
+/* color */
+    --first-color: hsl(160, 100%, 25%); /* #008156 */
+    --first-color-bright: hsl(160, 100%, 40%);
     --second-color: hsl(339, 77%, 59%);
     --third-color: hsl(42, 87%, 52%);
     --title-color: hsl(160, 0%, 0%);
@@ -14,31 +14,30 @@
     --body-color: #fff;
     --container-color: #fff;
 
-    /* font */
+/* font */
     --body-font: 'Noto Sans KR', sans-serif;
-    --biggest-font-size:2.25rem;    /* 36px */
-    --h1-font-size: 2rem;     /* 32px */
-    --h2-font-size: 1.5rem;    /* 24px */
-    --h3-font-size: 1.25rem;    /* 20px */
-    --normal-font-size: 1rem;     /* 16px*/
+    --biggest-font-size: 2.25rem; /* 36px */
+    --h1-font-size: 2rem; /* 32px */
+    --h2-font-size: 1.5rem; /* 24px */
+        --h3-font-size: 1.25rem; /* 20px */
+    --normal-font-size: 1rem; /* 16px */
     --small-font-size: .8rem;
     --smaller-font-size: .75rem;
 
-    /* font weight */
-    --font-medium: 500;
-    --font-bold: 700;
+/* font weight */
+--font-medium: 500;
+--font-bold: 700;
 
     /* z-index */
-    --z-index: 100; 
+--z-index: 100;
 }
-
 /* BASE */
-*{
+* {
     box-sizing: border-box;
-    margin:0;
+    margin: 0;
     padding: 0;
 }
-body{
+body {
     position: relative;
     font-family: var(--body-font);
     font-size: var(--normal-font-size);
@@ -47,34 +46,54 @@ body{
 }
 h1,
 h2,
-h3{
+h3 {
     color: var(--title-color);
     font-weight: var(--font-bold);
 }
-ul{
-    list-style: none;
+ul {
+    list-style: var(--normal-font-size);
 }
 a{
     text-decoration: none;
 }
-img{
-    max-width: 100px;
+img {
+    max-width: 100%;
     display: block;
     margin: 0 auto;
-
 }
 
 /* nav */
-.container{
+.container {
     margin-left: 1rem;
-    margin-right:1rem;
-
+    margin-right: 1rem;
 }
-
+header {
+background-color: var(--first-color);
+}
+nav {
+    height: 44px;
+    display: flex;    /*기본값: 수평 방향*/
+    justify-content:space-between ;    /*양쪽정렬*/
+    align-items: center;   /*교차축 가운데 */
+}
+nav i{
+    color:#fff;
+    font-size: var(--h3-font-size); /*아이콘 좀 크게*/
+}
+.nav-toggle{
+    display: none;  /*안보이게 하자*/
+}
+.nav-list {
+    display: flex;   /*기본값: 수평 방향*/
+    column-gap: 1.25rem;   /*   20px  */
+}
+.nav-link{
+    color: #fff;
+}
 /* breakpoints */
-
 /* 2K & 4K */
 
 /* tablet */
 
 /* mobile */
+

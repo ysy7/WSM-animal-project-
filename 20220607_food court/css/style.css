@@ -115,6 +115,7 @@ nav i{
         /*밑에거 둘 다 있어야 안보임 (가려짐)*/
         height: 0;  
         overflow: hidden;
+        transition: 1s;
 
     }
     .nav-item{
@@ -125,6 +126,9 @@ nav i{
     .nav-link{
         color: var(--title-color);
         display: block; /*링크의 너비 : 컨텐츠 -> nav-item 만큼 늘리자*/
+    }
+    .show-menu{
+        height: 164px;
     }
    
 

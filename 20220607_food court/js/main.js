@@ -4,11 +4,11 @@ function toggleMenu(toggleId, navListId){
     const navList = document.getElementById(navListId);
 
     function clickHandler(){
-        navList.
+        navList.classList.add('show-menu');
     }
 
     if(toggle && navList){
-        toggle.addEventListener('click', )
+        toggle.addEventListener('click', clickHandler);
     }
 
 }

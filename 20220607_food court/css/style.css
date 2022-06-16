@@ -69,7 +69,11 @@ img {
     margin-right: 1rem;
 }
 header {
-background-color: var(--first-color);
+    background-color: var(--first-color);
+    position: fixed;   /* 스크롤해도 항상 위치 고정 */
+    right: 0;
+    left: 0;
+
 }
 nav {
     height: 44px;

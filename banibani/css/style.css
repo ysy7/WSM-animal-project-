@@ -1,0 +1,13 @@
+#nav-toggle{
+    width: 1527px;
+    height: 60px;
+    background-color: #BDE8F2;
+    margin-top: 0;
+    row-gap: 1rem;
+}
+
+h1{
+    text-align: center;
+    color: #008156;
+
+}

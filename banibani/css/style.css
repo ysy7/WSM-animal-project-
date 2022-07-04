@@ -1,13 +1,180 @@
-#nav-toggle{
-    width: 1527px;
-    height: 60px;
-    background-color: #BDE8F2;
-    margin-top: 0;
-    row-gap: 1rem;
+/* Google Fonts */
+
+/* Variables CSS */
+:root {
+    /* color */
+    --first-color: hsl(160, 100%, 25%);
+    /* #008156 */
+    --first-color-bright: hsl(160, 100%, 40%);
+    --second-color: hsl(339, 77%, 59%);
+    --third-color: hsl(42, 87%, 52%);
+    --title-color: hsl(160, 0%, 0%);
+    --text-color: hsl(160, 0%, 47%);
+    --body-color: #fff;
+    --container-color: #fff;
+
+    /* font */
+    --biggest-font-size: 2.25rem;
+    /* 36px */
+    --h1-font-size: 2rem;
+    /* 32px */
+    --h2-font-size: 1.5rem;
+    /* 24px */
+    --h3-font-size: 1.25rem;
+    /* 20px */
+    --normal-font-size: 1rem;
+    /* 16px */
+    --small-font-size: .8rem;
+    --smaller-font-size: .75rem;
+
+    /* font weight */
+    --font-medium: 500;
+    --font-bold: 700;
+
+    /* z-index */
+    --z-index: 100;
 }
 
-h1{
-    text-align: center;
+/* BASE */
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    position: relative;
+    font-size: 1rem;
+    color: #BDE8F2;
+    background-color: #fff;
+}
+
+h1,
+h2,
+h3 {
+    color: #BDE8F2;
+    font-weight: 700;
+}
+
+ul {
+    list-style: 1rem;
+    list-style: none;
     color: #008156;
+}
+
+a {
+    text-decoration: none;
+}
+
+img {
+    max-width: 100%;
+    display: block;
+    margin: 0 auto;
+}
+
+/* nav */
+.container {
+    margin-left: 1rem;
+    margin-right: 1rem;
+}
+
+header {
+    background-color:#BDE8F2 ;
+    position: fixed;
+    /* 스크롤해도 항상 위치 고정 */
+    right: 0;
+    left: 0;
+    top: 0;
+
+}
+
+nav {
+    height: 44px;
+    display: flex;
+    /*기본값: 수평 방향*/
+    justify-content: space-between;
+    /*양쪽정렬*/
+    align-items: center;
+    /*교차축 가운데 */
+}
+
+nav i {
+    color: #fff;
+    font-size: 1.25rem;
+    /*아이콘 좀 크게*/
+}
+
+.nav-toggle {
+    display: none;
+    /*안보이게 하자*/
+}
+
+.nav-list {
+    display: flex;
+    /*기본값: 수평 방향*/
+    column-gap: 1.25;
+    /*   20px  */
+}
+
+.nav-link {
+    color: #fff;
+}
+
+
+/* breakpoints */
+/* 2K & 4K */
+
+/* tablet */
+@media screen and (max-width: 600px) {
+
+    /* width가 600px 이하면 아래 css 적용*/
+    .nav-toggle {
+        display: block;
+        cursor: pointer;
+        position: absolute;
+        /*위치 무시. 로고 가운데 정렬*/
+    }
+
+    .nav-logo {
+        margin: 0 auto;
+        /*로고 가운데 정렬*/
+    }
+
+    .nav-list {
+        position: absolute;
+        top: 44px;
+        left: 0;
+        right: 0;
+        /* width: 100%; */
+        flex-direction: column;
+        background-color: lightgrey;
+        /*밑에거 둘 다 있어야 안보임 (가려짐)*/
+        height: 0;
+        overflow: hidden;
+        transition: 1s;
+
+    }
+
+    .nav-item {
+        padding: 0.5rem 1rem;
+        /*위 오 아 왼*/
+        text-align: center;
+        /*가운데 정렬*/
+        border-bottom: 1px solid #fff;
+        /*아래 선*/
+    }
+
+    .nav-link {
+        color: #fff;
+        display: block;
+        /*링크의 너비 : 컨텐츠 -> nav-item 만큼 늘리자*/
+    }
+
+    .show-menu {
+        height: 164px;
+        width: 476px;
+        
+    }
+
 
 }

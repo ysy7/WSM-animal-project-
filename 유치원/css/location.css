@@ -1,0 +1,119 @@
+body{
+    /*background-color: yellow;  */
+    background-color: #254995;
+    margin: auto;
+ }
+ .div-menubox {
+    padding: 1px;
+    height: 40px;
+    background-color: #ffffff;
+}
+ ul {
+    list-style: none; /* list 점 없애기 */
+    justify-content: center;
+    font-size: large;
+
+}
+ ul#nav-list {
+    display: flex; /* 기본값: 수평 방향 */
+    column-gap: 12.5rem; /*25px*/
+    justify-content: center;
+    flex-direction: row;
+
+}
+.curtain{
+    display: flex;
+    flex-direction: row;
+
+}
+.curtain .c1{
+    background-color: #ffffff;
+    width: 320px;
+    height: 75px;
+    border-radius: 0% 0% 300% 300%;
+}
+.curtain .c2{
+    background-color: #ffffff;
+    width: 320px;
+    height: 75px;
+    border-radius: 0% 0% 300% 300%;
+}
+.curtain .c3{
+    background-color: #ffffff;
+    width: 320px;
+    height: 75px;
+    border-radius: 0% 0% 300% 300%;
+}
+.curtain .c4{
+    background-color: #ffffff;
+    width: 320px;
+    height: 75px;
+    border-radius: 0% 0% 300% 300%;
+}
+.curtain .c5{
+    background-color: #ffffff;
+    width: 320px;
+    height: 75px;
+    border-radius: 0% 0% 300% 300%;
+}
+.curtain .c6{
+    background-color: #ffffff;
+    width: 320px;
+    height: 75px;
+    border-radius: 0% 0% 300% 300%;
+}
+a {
+    text-decoration: none;
+    color: black;
+}
+
+a.nav-link {
+    color: black;
+    font-weight: bold;
+}
+
+.container{
+    height: 796px;
+    margin: 0px 40px 0px 40px;
+    background-color: #D3D3D3;
+
+}
+.container .jiyeog{
+    margin: 10px 0px;
+    background-color: white;
+    height: 37px;
+    display: flex;
+    align-items: center;
+}
+.container .search{
+    margin: 10px 0px;
+    padding: 5px 10px;
+    background-color: white;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+
+}
+.container .search .color{
+    background-color: #dcdcdc;
+    margin-right: 25px;
+    
+    
+}
+.container .search .search-box{
+    border: solid 0.5px #000;
+    padding: 3px 35%;
+    margin-left: 20px;
+}
+footer{
+    height: 60px;
+    background-color: #000080;
+    margin: 0px;
+}
+footer .moseori{
+
+    height: 35px;
+    background-color: #D3D3D3;
+    margin: 0px 40px 0px 40px;
+    border-radius: 0px 0px 20px 20px;
+}

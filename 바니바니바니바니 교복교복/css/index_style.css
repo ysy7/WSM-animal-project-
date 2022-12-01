@@ -1,0 +1,632 @@
+@media screen and (max-width:767px) {
+    header {
+        width: 500px;
+        position: fixed;
+        top: 0;
+    }
+    
+    ul#nav-list {
+        display: flex; /* 기본값: 수평 방향 */
+        column-gap: 1.875rem; /*25px*/
+        width: 550px;
+        padding: 0;
+        line-height: 35px;
+        margin: auto 0;
+        flex-direction: row;
+        justify-content: flex-start;
+        text-align: center;
+        margin-left: 10%;
+        margin-top: 2%;
+    }
+    
+    div.name-tag{
+        margin-left: 24%;
+        width: 100%;
+    }
+    
+    a {
+        text-decoration: none;
+        color: black;
+    }
+    
+    ul {
+        list-style: none; /* list 점 없애기 */
+        justify-content: center;
+    }
+    
+    p {
+        text-align: center;
+        color: #000000;
+        font-size: medium;
+        margin: 3px;
+    }
+    
+    .div-container {
+        position: fixed;
+        left: 34%;
+    }
+    
+    .div-colorbox {
+        width: 500px;
+        height: 30px;
+        background-color: rgba(189, 232, 242, 35%);
+        border: 1px solid black;
+        border-radius: 1rem 1rem 0 0;
+    }
+    
+    .div-menubox {
+        width: 500px;
+        height: 60px;
+        background-color: #ffffff;
+        border: 1px solid black;
+        border-radius: 0 0 1rem 1rem;
+    }
+    
+    img.card-img{
+        width: 125px;
+    }
+
+    p {
+        font-size: 13px;
+    }
+    
+    div.card-content-box{
+        display: flex;
+        text-align: center;
+        float: left;
+        position: relative;
+        width: 100%;
+    }
+    
+    div.card-content-box2{
+        display: flex;
+        text-align: center;
+        float: left;
+        position: relative;
+        width: 100%;
+        border-radius: 0 0 20px 20px;
+    }
+    
+    div.content{
+        margin: 40px;
+        
+    }
+    
+    div.content:nth-child(1){
+        margin-left: 15%;
+    }
+    
+    .card-content-box {
+        margin-top: -1%;
+        margin-left: 10%;
+    }
+    
+    .card-content-box2 {
+        margin-left: 10%;
+    }
+    
+    ul.left-nav-list {
+        column-gap: 1.875rem; /*25px*/
+        width: 200px;
+        padding: 0;
+        line-height: 35px;
+        margin: auto 0;
+        flex-direction: row;
+        justify-content: flex-start;
+        text-align: center;
+        margin-top: 2%;
+        background-color: rgba(0, 129, 86, 13%);
+    }
+    
+    a.left-nav-link {
+        text-decoration: none;
+        color: black;
+        font-size: 13px;
+    }
+    
+    a.left-nav-link2 {
+        text-decoration: none;
+        color: red;
+        font-size: 13px;
+    }
+    
+    li.left-nav-item2 {
+        background-color: rgba(255, 0, 0, 10%);
+    }
+    
+    ul {
+        list-style: none; /* list 점 없애기 */
+        justify-content: center;
+    }
+    
+    .nav-link {
+        color: black;
+    }
+    
+    ul.left-nav-list {
+        width: 90px;
+    }
+    
+    .card-content-box {
+        margin: 0 3% 0 3%;
+    }
+    
+    .card-content-box2 {
+        margin: 0 3% 3% 3%;
+    }
+    
+    .card-content-box, .card-content-box2 {
+        background-color: rgba(189, 232, 242, 35%);
+    }
+    
+    .content-box {
+        margin: 5%;
+    }
+    
+    div.left-nav{
+        position: absolute;
+        margin-left: 2.5%;
+        margin-top: 15%;
+    }
+
+    img.plus{
+        width: 30px;
+        margin-left: 30px;
+        margin-top: 5px;
+        border-radius: 100px;
+    }
+    div.content-nav{
+        border-radius: 20px 20px 0 0;
+        margin-left: 3%;
+        background-color: rgba(189, 232, 242, 35%);
+        width: 100%;
+        padding-top: 20px;
+    }
+    a.content-nav-jl{
+        float: right;
+        margin-right: 10px;
+        margin-top: 20px;
+        font-size: 13px;
+    }
+    
+    a.content-nav-jl:nth-child(3){
+        float: right;
+        margin-right: 10px;
+        color: red;
+        margin-right: 50px;
+    }
+    button.write{
+        display: none;
+    }    
+}
+
+
+
+
+
+
+
+
+
+
+@media screen and (min-width:768px)and (max-width:1023px){
+    header {
+        width: 500px;
+        position: fixed;
+        top: 0;
+    }
+    
+    ul#nav-list {
+        display: flex; /* 기본값: 수평 방향 */
+        column-gap: 1.875rem; /*25px*/
+        width: 550px;
+        padding: 0;
+        line-height: 35px;
+        margin: auto 0;
+        flex-direction: row;
+        justify-content: flex-start;
+        text-align: center;
+        margin-left: 10%;
+        margin-top: 2%;
+    }
+    
+    div.name-tag{
+        margin-left: 20%;
+        width: 100%;
+    }
+    
+    a {
+        text-decoration: none;
+        color: black;
+    }
+    
+    ul {
+        list-style: none; /* list 점 없애기 */
+        justify-content: center;
+    }
+    
+    p {
+        text-align: center;
+        color: #000000;
+        font-size: medium;
+        margin: 3px;
+    }
+    
+    .div-container {
+        position: fixed;
+        left: 34%;
+    }
+    
+    .div-colorbox {
+        width: 500px;
+        height: 30px;
+        background-color: rgba(189, 232, 242, 35%);
+        border: 1px solid black;
+        border-radius: 1rem 1rem 0 0;
+    }
+    
+    .div-menubox {
+        width: 500px;
+        height: 60px;
+        background-color: #ffffff;
+        border: 1px solid black;
+        border-radius: 0 0 1rem 1rem;
+    }
+    
+    img.card-img{
+        width: 125px;
+    }
+
+    p {
+        font-size: 13px;
+    }
+    
+    div.card-content-box{
+        display: flex;
+        text-align: center;
+        float: left;
+        position: relative;
+        width: 100%;
+    }
+    
+    div.card-content-box2{
+        display: flex;
+        text-align: center;
+        float: left;
+        position: relative;
+        width: 100%;
+        border-radius: 0 0 20px 20px;
+    }
+    
+    div.content{
+        margin: 40px;
+        
+    }
+    
+    div.content:nth-child(1){
+        margin-left: 15%;
+    }
+    
+    .card-content-box {
+        margin-top: -1%;
+        margin-left: 10%;
+    }
+    
+    .card-content-box2 {
+        margin-left: 10%;
+    }
+    
+    ul.left-nav-list {
+        column-gap: 1.875rem; /*25px*/
+        width: 200px;
+        padding: 0;
+        line-height: 35px;
+        margin: auto 0;
+        flex-direction: row;
+        justify-content: flex-start;
+        text-align: center;
+        margin-top: 2%;
+        background-color: rgba(0, 129, 86, 13%);
+    }
+    
+    a.left-nav-link {
+        text-decoration: none;
+        color: black;
+        font-size: 13px;
+    }
+    
+    a.left-nav-link2 {
+        text-decoration: none;
+        color: red;
+        font-size: 13px;
+    }
+    
+    li.left-nav-item2 {
+        background-color: rgba(255, 0, 0, 10%);
+    }
+    
+    ul {
+        list-style: none; /* list 점 없애기 */
+        justify-content: center;
+    }
+    
+    .nav-link {
+        color: black;
+    }
+    
+    ul.left-nav-list {
+        width: 90px;
+    }
+    
+    .card-content-box {
+        margin: 0 3% 0 3%;
+    }
+    
+    .card-content-box2 {
+        margin: 0 3% 3% 3%;
+    }
+    
+    .card-content-box, .card-content-box2 {
+        background-color: rgba(189, 232, 242, 35%);
+    }
+    
+    .content-box {
+        margin: 5%;
+    }
+    
+    div.left-nav{
+        position: absolute;
+        margin-left: 2.5%;
+        margin-top: 15%;
+    }
+
+    img.plus{
+        width: 30px;
+        margin-left: 30px;
+        margin-top: 5px;
+        border-radius: 100px;
+    }
+    div.content-nav{
+        border-radius: 20px 20px 0 0;
+        margin-left: 3%;
+        background-color: rgba(189, 232, 242, 35%);
+        width: 100%;
+        padding-top: 20px;
+    }
+    a.content-nav-jl{
+        float: right;
+        margin-right: 10px;
+        margin-top: 20px;
+        font-size: 13px;
+    }
+    
+    a.content-nav-jl:nth-child(3){
+        float: right;
+        margin-right: 10px;
+        color: red;
+        margin-right: 50px;
+    }
+    button.write{
+        display: none;
+    }
+    div.item-card-box{
+        display: flex;
+        width: 250px;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+@media screen and (min-width:1024px) {
+    header {
+        width: 500px;
+        position: fixed;
+        top: 0;
+    }
+    
+    ul#nav-list {
+        display: flex; /* 기본값: 수평 방향 */
+        column-gap: 1.875rem; /*25px*/
+        width: 550px;
+        padding: 0;
+        line-height: 35px;
+        margin: auto 0;
+        flex-direction: row;
+        justify-content: flex-start;
+        text-align: center;
+        margin-left: 10%;
+        margin-top: 2%;
+    }
+    
+    div.profile-box {
+        margin-top: 5%;
+    }
+    div.name-tag{
+        margin-left: 33%;
+        width: 100%;
+    }
+    
+    a {
+        text-decoration: none;
+        color: black;
+    }
+    
+    ul {
+        list-style: none; /* list 점 없애기 */
+        justify-content: center;
+    }
+    
+    p {
+        text-align: center;
+        color: #008156;
+        font-size: medium;
+        margin: 3px;
+    }
+    
+    .div-container {
+        position: fixed;
+        left: 34%;
+    }
+    
+    .div-colorbox {
+        width: 500px;
+        height: 30px;
+        background-color: rgba(189, 232, 242, 35%);
+        border: 1px solid black;
+        border-radius: 1rem 1rem 0 0;
+    }
+    
+    .div-menubox {
+        width: 500px;
+        height: 60px;
+        background-color: #ffffff;
+        border: 1px solid black;
+        border-radius: 0 0 1rem 1rem;
+    }
+    
+    img.card-img{
+        width: 100%;
+    }
+    
+    div.card-content-box{
+        display: flex;
+        text-align: center;
+        float: left;
+        position: relative;
+        width: 100%;
+    }
+    
+    div.card-content-box2{
+        display: flex;
+        text-align: center;
+        float: left;
+        position: relative;
+        width: 100%;
+        border-radius: 0 0 20px 20px;
+    }
+    
+    div.content{
+        margin: 40px;
+    }
+    
+    div.content:nth-child(1){
+        margin-left: 15%;
+    }
+    
+    .card-content-box {
+        margin-top: -1%;
+        margin-left: 10%;
+    }
+    
+    .card-content-box2 {
+        margin-left: 10%;
+    }
+    
+    ul.left-nav-list {
+        column-gap: rem; /*25px*/
+        width: 200px;
+        padding: 0;
+        line-height: 45px;
+        margin: auto 0;
+        flex-direction: row;
+        justify-content: flex-start;
+        text-align: center;
+        margin-top: 2%;
+        background-color: rgba(0, 129, 86, 13%);
+    }
+    
+    a.left-nav-link {
+        text-decoration: none;
+        color: black;
+    }
+    
+    a.left-nav-link2 {
+        text-decoration: none;
+        color: red;
+    }
+    
+    li.left-nav-item2 {
+        background-color: rgba(255, 0, 0, 10%);
+    }
+    
+    ul {
+        list-style: none; /* list 점 없애기 */
+        justify-content: center;
+    }
+    
+    .nav-link {
+        color: black;
+    }
+    
+    ul.left-nav-list {
+        width: 130px;
+    }
+    
+    .card-content-box {
+        margin: 0 3% 0 3%;
+    }
+    
+    .card-content-box2 {
+        margin: 0 3% 3% 3%;
+    }
+    
+    .card-content-box, .card-content-box2 {
+        background-color: rgba(189, 232, 242, 35%);
+    }
+    
+    .content-box {
+        margin: 5%;
+    }
+    div.left-nav{
+        position: absolute;
+        margin-left: 2.5%;
+        margin-top: 8%;
+    }
+    img.plus{
+        width: 35px;
+        margin-left: 50px;
+        margin-top: 2%;
+        border-radius: 100px;
+    }
+    div.content-nav{
+        border-radius: 20px 20px 0 0;
+        margin-left: 3%;
+        background-color: rgba(189, 232, 242, 35%);
+        width: 100%;
+    }
+    a.content-nav-jl{
+        float: right;
+        margin-right: 16px;
+        margin-top: 20px;
+        font-size: 16px;
+    }
+    a.content-nav-jl:nth-child(3){
+        float: right;
+        margin-right: 10px;
+        color: red;
+        margin-right: 50px;
+    }
+    button.write{
+        height: 40px;
+        border-radius: 20px;
+        margin-left: 5px;
+        margin-top: ;
+        background-color: #00815626;
+        border: none;
+    }
+    div.item-card-box{
+        display: flex;
+    }
+
+    .card-content-box:nth-child(1){
+        margin-left: 50px;
+    }
+}
+

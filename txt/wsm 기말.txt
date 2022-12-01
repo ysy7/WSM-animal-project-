@@ -1,2 +1,0 @@
-display : none 안보이게 함
-max-width *php 시험 범위 참고* 미디어쿼리 
